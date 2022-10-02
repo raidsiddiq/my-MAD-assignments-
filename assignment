@@ -1,0 +1,121 @@
+// Program#1
+// var value=123456;
+// let temp=value
+// let indexNumber=parseInt(prompt("Enter the value : "));
+// for(let i=0;i<indexNumber;i++)
+// {
+//     value=temp%10;
+//     temp=temp/10;
+
+// }
+// console.log("last digit is : " + parseInt(value));
+
+// Program#2
+// let data="6742390";
+// let ary=[...data]
+// console.log(ary);
+// function SumOfAry(sum,numb)
+// {
+//     return Number(sum)+ Number(numb);
+// }
+// let sumOfAry=ary.reduce(SumOfAry);
+// console.log("Sum of string value is : " + sumOfAry);
+
+// Program#3
+// let numb="5866524";
+// let ary=[...numb]
+// console.log(ary);
+// function CalculateEven(numb1)
+// {
+//     if(numb1%2==0)
+//     {
+//         return numb1;
+//     }
+// }
+// let evenNumb=ary.filter(CalculateEven);
+// console.log("Even numbers are " + evenNumb);
+// function SumOfAry(sum,numb2)
+// {
+//     return Number(sum)+ Number(numb2);
+// }
+// let sumary=evenNumber.reduce(SumOfAry);
+// console.log("Sum of Evens' are : " + sumary);
+
+
+
+// Program#4
+// let numb=parseInt(prompt("Enter value to take square and cube :"));
+// // function CalculateSquare(val1)
+// {
+//     return val1**2;
+// }
+// function CalculateCube(val2)
+// {
+//     return val2**3;
+// }
+// let squared=CalculateSquare(numb);
+// let cubed=CalculateCube(numb);
+// console.log("Square of number is : "+ squared);
+// console.log("Cube of number is : "+ cubed);
+
+// Program#5
+// var characterr="";
+// let strg=prompt("Enter string");
+// let numb=prompt("Enter Number");
+// strg=strg.toUpperCase();
+// console.log(strg);
+// for(var i=0;i<strg.length;i++)
+// {
+//     characterr=strg.charAt(i);
+//     if(characterr=="A" || characterr=="E" || characterr=="I" || characterr=="O" || characterr=="U" )
+//     {
+//         break;
+//     }
+// }
+// if(i<strg.length)
+// {
+//     console.log("Position of left-most vowel is : " + (i+1));
+// }
+// else
+// {
+//     console.log("No vowel found at left-position !");
+// }
+// let reversedNumb=numb.toString().split('').reverse().join('');
+// console.log("Reversed Number is : " + reversedNumb);
+
+
+
+// Program#6
+// var randomNumb=Math.floor(Math.random()*10);
+// console.log(randomNumb);
+// let guessNum=prompt("Enter your Number guessed : ");
+// if(guessNumb==randomNumb)
+// {
+//     console.log("You Guessed Right!");
+// }
+// else
+// {
+//     console.log("You Guessed not right!");
+// }
+
+// Program#7
+// let ary=[10,7,19,10];
+// let lastPost=ary.length-1;
+// if(ary[0]==10)
+// {
+//     console.log("Yes 10 appears at 1st  : ");
+// }
+// else if(ary[lastPost]==10)
+// {
+//     console.log("Yes 10 appears at last : ");
+// }
+// else
+// {
+//     console.log("10 is not present in array ! ");
+
+// }
+
+// // Program#8
+// let strg=prompt("Enter the string to ordered : ");
+// strg=strg.split('').sort().join('');
+// console.log("String in alphabetical order is : " + strg);
